@@ -1,0 +1,16 @@
+[
+    {
+        "name": "HacktoberFest Celebration",
+        "about": "A small application to introduce people in open source community",
+        "technologies": "Angular8, GitHub Action (for CI/CD)",
+        "codeLink": "https://github.com/mhaider110/web-tech-hacktoberfest2020",
+        "liveLink": "https://mhaider110.github.io/web-tech-hacktoberfest2020/#/"
+    },
+    {
+        "name": "Npm package",
+        "about": "A small Angular package published in NPM for Auto-Select (dropdown)",
+        "technologies": "Angular5, NPM, Angular CLI",
+        "codeLink": "https://github.com/mhaider110/ng-simple-autocomplete",
+        "liveLink": "https://www.npmjs.com/package/ng-simple-autocomplete2"
+    }
+]
