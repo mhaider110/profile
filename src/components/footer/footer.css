@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #0052D4;
+    padding: 1rem 2rem;
+}
+.footer div {
+    color: #fff; 
+}
+.footer .heart {
+    color: red;
+    margin-left: 0.2rem;
+}

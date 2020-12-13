@@ -1,0 +1,8 @@
+.work-links a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #000;
+}
+.work-links div {
+    width: 20%;
+}

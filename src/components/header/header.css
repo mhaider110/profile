@@ -1,0 +1,76 @@
+/* Nav bar start */
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #03327e; */
+    background: #0052D4;
+    padding: 0rem 2rem;
+}
+.nav-bar .brand-name {
+    font-family: 'Faster One', cursive;
+    font-size: 2rem;
+    color: #fff; 
+    text-shadow: 2px 2px #4e4d4d;   
+}
+
+/* Nav bar start end */
+
+/* Menu toggle button start */
+.menu__toggle-button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    /* border: 1px solid #fff; */
+    border-radius: 0.2rem;
+}
+
+.menu__toggle-button .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-7px, 6px);
+    transform: rotate(-45deg) translate(-7px, 6px);
+}
+  
+.open .bar2 {opacity: 0;}
+  
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -5px);
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+/* Menu toggle button end */
+
+
+/* Menu list start */
+.menu__list {
+    position: absolute;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 0rem;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.menu__list.show {
+    max-height: 16rem;
+}
+.menu__list-item {
+    text-align: center;
+}
+.menu__list-item a{
+    display: block;
+    text-decoration: none;
+    padding: 0.7rem;
+    background: #0f4192;
+    color: #fff;
+}
+/* Menu list end */

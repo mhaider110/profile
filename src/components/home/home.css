@@ -1,0 +1,74 @@
+.home {
+    background: #0052D4; 
+    background: -webkit-linear-gradient(to bottom, #0052D4, #4364F7, #6FB1FC);
+    background: linear-gradient(to bottom, #0052D4, #4364F7, #6FB1FC); 
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home .intro * {
+    margin: 0;
+    padding: 0;
+}
+
+.home .intro {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.home .intro h2 {
+    padding: 0.2rem 1rem;
+    color: #fff;
+}
+
+.home .intro h3 {
+    color: #fff;
+}
+
+.home .profile-picture {
+    border: 1px solid #666;
+    background: #fff;
+    height: 15rem;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.2) inset;
+    border-radius: 0.5rem;
+    background-image: url('../../assets/images/IMG_DP.jpg');
+    background-size: cover;
+    background-position-x: 10px;
+}
+
+.home .social-icons a {
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.skill-section, .work-section {
+    min-height: 100vh;
+}
+.contact-section {
+    min-height: 30vh;
+    background: #0052D4; 
+    background: -webkit-linear-gradient(to bottom, #0052D4, #4364F7, #6FB1FC);
+    background: linear-gradient(to bottom, #0052D4, #4364F7, #6FB1FC); 
+}
+
+.goto-top {
+  /* display: none; */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 5rem; /* Place the button at the bottom of the page */
+  right: 1rem; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: #69a7fb; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 1rem; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 1.1rem; /* Increase font size */
+}
