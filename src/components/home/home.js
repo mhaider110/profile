@@ -17,6 +17,7 @@ import Contact from '../contact/contact';
 import listOfSkills from '../../assets/data/skils.json';
 import listOfWork from '../../assets/data/recent-work.json';
 import profile from '../../assets/data/profile.json';
+import resume from '../../assets/resume/resume-v1.pdf'
 
 export default function home() {
 
@@ -41,6 +42,7 @@ export default function home() {
                 </Container>
                 <Container centerContent className="contact-me">
                     <a href="#contact"><Button>Contact me</Button></a>
+                    <a href={resume} target="_blank" rel="noreferrer" data-title="Resume"><Button>My Resume</Button></a>
                 </Container>
             </Container>
             <Container innerShadow height={'17.6vh'} padding={'0.5rem'}>
