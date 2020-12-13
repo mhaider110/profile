@@ -238,7 +238,7 @@ export default function home() {
                 </Container>
                 <Container className="profile-picture">
                 </Container>
-                <Container centerContent marginTop={'0.5rem'}>
+                <Container centerContent marginTop={'0.5rem'} className="social-icons-parent">
                     <Container spaceEvenly width={'8rem'} className="social-icons">
                         <a href="https://www.linkedin.com/in/mohd-haider-035ba868/" target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                         <a href="https://github.com/mhaider110" target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
@@ -246,7 +246,7 @@ export default function home() {
                         <a href="https://twitter.com/mannuuu" target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
                     </Container>
                 </Container>
-                <Container centerContent>
+                <Container centerContent className="contact-me">
                     <a href="#contact"><Button>Contact me</Button></a>
                 </Container>
             </Container>

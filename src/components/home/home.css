@@ -72,3 +72,34 @@
   border-radius: 10px; /* Rounded corners */
   font-size: 1.1rem; /* Increase font size */
 }
+
+@media (min-width: 600px) { 
+    .home {
+        display: grid;
+    }
+    .home .intro {
+        grid-row: 1;
+        grid-column: 1;
+        align-self: center;
+        padding-left: 1rem
+    }
+    .home .profile-picture {
+        grid-row: 1;
+        grid-column: 2;
+        align-self: center;
+        height: 25rem;
+    }
+    .home .social-icons-parent {
+        margin: 0;
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .home .contact-me {
+        margin: 0;
+        grid-row: 2;
+        grid-column: 1;
+    }
+    .home .contact-me a button {
+        width: 12rem;
+    }
+}
