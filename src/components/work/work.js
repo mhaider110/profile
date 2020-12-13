@@ -13,7 +13,7 @@ import './work.css'
 
 export default function work({workDetails}) {
     return (
-        <Container padding={'0.5rem'}>
+        <Container padding={'0.5rem'} className="work-item">
             <Container leftBorder padding={'0.5rem'}>
                 <Heading>{workDetails.name}</Heading>
             </Container>
