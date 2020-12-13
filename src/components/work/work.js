@@ -26,10 +26,10 @@ export default function work({workDetails}) {
 
                     <Container spaceEvenly className="work-links">
                         <Container>
-                            <a href={workDetails.codeLink} target={'_blank'}><FontAwesomeIcon icon={faGithub} /></a>
+                            <a href={workDetails.codeLink} target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
                         </Container>
                         <Container>
-                            <a href={workDetails.liveLink} target={'_blank'}><FontAwesomeIcon icon={faRocket} /></a>
+                            <a href={workDetails.liveLink} target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faRocket} /></a>
                         </Container>
                     </Container>
                 </Card>
