@@ -17,6 +17,10 @@ Setup code and Edit (replace with your details) `json` files in `src/assets/data
 
 Set home page URL as `http://<your-github-username>.github.io/profile` in `package.json` file.
 
+Replace profile picture at `src/assets/images/IMG_DP.jpg` with your picture.
+
+For logo - Replace `mh` at `/src/components/header/header.js line 17`  with any text you wish.
+
 Run the following scripts in order
 ```
 npm install

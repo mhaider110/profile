@@ -1,5 +1,12 @@
 [
     {
+        "name": "Digital Profile Appp",
+        "about": "An app to create your digital online profile quickly using few steps!",
+        "technologies": "React, yarn, styled-components",
+        "codeLink": "https://github.com/mhaider110/profile",
+        "liveLink": "https://mhaider110.github.io/profile/"
+    },
+    {
         "name": "HacktoberFest Celebration",
         "about": "A small application to introduce people in open source community",
         "technologies": "Angular8, GitHub Action (for CI/CD)",
