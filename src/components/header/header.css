@@ -60,6 +60,9 @@
     transition: 0.5s;
     overflow: hidden;
 }
+.menu__list-large {
+    display: none;
+}
 .menu__list.show {
     max-height: 16rem;
 }
@@ -74,3 +77,26 @@
     color: #fff;
 }
 /* Menu list end */
+
+/* Tablet and Desktop style */
+
+@media (min-width: 600px) { 
+    .menu__toggle-button {
+        display: none;
+    }
+    .menu__list-large {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        padding: 0.7rem;
+        background: none;
+        color: #fff;        
+    }
+    .menu__list-item a{
+        text-decoration: none;
+        padding: 0px 1.5rem 0px 1.5rem;
+        color: #fff;
+        background: none;
+        font-weight: bold;
+    }
+}
