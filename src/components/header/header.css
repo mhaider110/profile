@@ -75,6 +75,7 @@
     padding: 0.7rem;
     background: #0f4192;
     color: #fff;
+    font-weight: bold;
 }
 /* Menu list end */
 
@@ -82,6 +83,9 @@
 
 @media (min-width: 600px) { 
     .menu__toggle-button {
+        display: none;
+    }
+    .menu__list {
         display: none;
     }
     .menu__list-large {
