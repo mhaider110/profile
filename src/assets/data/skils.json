@@ -4,55 +4,55 @@
         "technologies": [
             {
                 "name": "HTML",
-                "experiance": "5 years",
+                "experience": "5 years",
                 "lastVersionUsed": "HTML5"
             },
             {
                 "name": "CSS",
-                "experiance": "5 years",
+                "experience": "5 years",
                 "lastVersionUsed": "CSS3"
             },
             {
                 "name": "Javascript",
-                "experiance": "5 years",
+                "experience": "5 years",
                 "lastVersionUsed": "ES6, ES7"
             },
             {
                 "name": "Typescript",
-                "experiance": "3 years",
+                "experience": "3 years",
                 "lastVersionUsed": "4.0.2"
             },
             {
                 "name": "React",
-                "experiance": "2 years",
+                "experience": "2 years",
                 "lastVersionUsed": "16, 17"
             },
             {
                 "name": "Redux",
-                "experiance": "2 years",
+                "experience": "2 years",
                 "lastVersionUsed": "4.0"
             },
             {
                 "name": "Angular",
-                "experiance": "3 years",
+                "experience": "3 years",
                 "lastVersionUsed": "9, 10"
             },
             {
                 "name": "Jest / Jasmin",
-                "experiance": "2 years",
+                "experience": "2 years",
                 "lastVersionUsed": "5.11 / 3.5"
             },
             {
                 "name": "Cypress",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             },
             {
                 "name": "Karma / Protector",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             },
             {
                 "name": "npm / yarn / webpack",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             }
         ]
     },
@@ -61,41 +61,41 @@
         "technologies": [
             {
                 "name": "Java",
-                "experiance": "5 years",
+                "experience": "5 years",
                 "lastVersionUsed": "12"
             },
             {
                 "name": "Node.js",
-                "experiance": "3 years",
+                "experience": "3 years",
                 "lastVersionUsed": "12.3.1"
             },
             {
                 "name": "Kotlin",
-                "experiance": "2 years",
+                "experience": "2 years",
                 "lastVersionUsed": "1.4.10"
             },
             {
                 "name": "Hibernate",
-                "experiance": "2 years",
+                "experience": "2 years",
                 "lastVersionUsed": "5.1"
             },
             {
                 "name": "Spring Boot",
-                "experiance": "2 years",
+                "experience": "2 years",
                 "lastVersionUsed": "2.0"
             },
             {
                 "name": "Jooby",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             },
             {
                 "name": "Junit",
-                "experiance": "2 years",
+                "experience": "2 years",
                 "lastVersionUsed": "4, 5"
             },
             {
                 "name": "Mockito / mockk",
-                "experiance": "2 years"
+                "experience": "2 years"
             }
         ]
     },
@@ -104,16 +104,16 @@
         "technologies": [
             {
                 "name": "MySql",
-                "experiance": "5 years",
+                "experience": "5 years",
                 "lastVersionUsed": "5.7"
             },
             {
                 "name": "MongoDB",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             },
             {
                 "name": "PostgresQL",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             }
         ]
     },
@@ -122,39 +122,39 @@
         "technologies": [
             {
                 "name": "Git / BitBucket",
-                "experiance": "3 years"
+                "experience": "3 years"
             },
             {
                 "name": "Trello / JIRA",
-                "experiance": "3 years"
+                "experience": "3 years"
             },
             {
                 "name": "Confluence",
-                "experiance": "3 years"
+                "experience": "3 years"
             },
             {
                 "name": "Sonar",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             },
             {
                 "name": "Jenkins",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             },
             {
                 "name": "GitHub Actions",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             },
             {
                 "name": "Docker",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             },
             {
                 "name": "Kubernetes",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             },
             {
                 "name": "Azure",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             }
         ]
     },
@@ -163,15 +163,15 @@
         "technologies": [
             {
                 "name": "Android-Native",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             },
             {
                 "name": "Ionic framework",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             },
             {
                 "name": "Apache Cordova",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             }
         ]
     },
@@ -180,15 +180,15 @@
         "technologies": [
             {
                 "name": "MacOS",
-                "experiance": "4 years"
+                "experience": "4 years"
             },
             {
                 "name": "Windows",
-                "experiance": ">10 years"
+                "experience": ">10 years"
             },
             {
                 "name": "Linux",
-                "experiance": "Working knowledge"
+                "experience": "Working knowledge"
             }
         ]
     }

@@ -9,7 +9,7 @@ export default function flipcard({ technology }) {
                     <h4>{technology.name}</h4>
                 </div>
                 <div className="flip-card-back">
-                    <p>{technology.experiance && 'Experiance: ' + technology.experiance}</p>
+                    <p>{technology.experience && 'Experience: ' + technology.experience}</p>
                     <p>{technology.lastVersionUsed && 'Version: ' + technology.lastVersionUsed}</p>
                 </div>
             </div>

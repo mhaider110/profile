@@ -48,7 +48,7 @@ export default function home() {
             <Container innerShadow height={'17.6vh'} padding={'0.5rem'}>
                 <Container leftBorder padding={'0.5rem'} className="about">
                     <Heading>What I do</Heading>
-                    <p>I have more than 5 years' experiance building web application end to end from scratch! checkout my <a href="#skills"><i>skills</i></a> and <a href={resume} target="_blank" rel="noreferrer" data-title="Resume"><i>resume</i></a></p>
+                    <p>I have more than 5 years' experience building web application end to end from scratch! checkout my <a href="#skills"><i>skills</i></a> and <a href={resume} target="_blank" rel="noreferrer" data-title="Resume"><i>resume</i></a></p>
                 </Container>
             </Container>
             <Container id="skills" className="skill-section">
