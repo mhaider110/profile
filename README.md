@@ -28,8 +28,8 @@ npm install
 ```
 npm start
 ```
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-If every looks good! follow the last step to deploy 🔥
+Open [http://localhost:3000](http://localhost:3000) to view in the browser.
+If everything looks good! follow the last step to deploy 🔥
 
 
 ### Step 3 - `GO!!🎉`
