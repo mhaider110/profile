@@ -17,7 +17,7 @@ import Contact from '../contact/contact';
 import listOfSkills from '../../assets/data/skils.json';
 import listOfWork from '../../assets/data/recent-work.json';
 import profile from '../../assets/data/profile.json';
-import resume from '../../assets/resume/resume.pdf'
+import resume from '../../assets/resume/resume_haider_v2.pdf'
 
 export default function home() {
 
@@ -28,7 +28,6 @@ export default function home() {
                     <h3>Hello <span role="img" aria-label="wave">👋</span> </h3>
                     <h2>My Name is {profile.firstName}{' '}{profile.lastName}</h2>
                     <h2>{profile.aboutLine1}</h2>
-                    <h2>{profile.aboutLine2}</h2>
                 </Container>
                 <Container className="profile-picture">
                 </Container>
@@ -48,7 +47,7 @@ export default function home() {
             <Container innerShadow height={'17.6vh'} padding={'0.5rem'}>
                 <Container leftBorder padding={'0.5rem'} className="about">
                     <Heading>What I do</Heading>
-                    <p>I have more than 5 years' experience building web application end to end from scratch! checkout my <a href="#skills"><i>skills</i></a> and <a href={resume} target="_blank" rel="noreferrer" data-title="Resume"><i>resume</i></a></p>
+                    <p>I have more than 6 years' experience building web application end to end from scratch! checkout my <a href="#skills"><i>skills</i></a> and <a href={resume} target="_blank" rel="noreferrer" data-title="Resume"><i>resume</i></a></p>
                 </Container>
             </Container>
             <Container id="skills" className="skill-section">
