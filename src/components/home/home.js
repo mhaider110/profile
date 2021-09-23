@@ -17,7 +17,7 @@ import Contact from '../contact/contact';
 import listOfSkills from '../../assets/data/skils.json';
 import listOfWork from '../../assets/data/recent-work.json';
 import profile from '../../assets/data/profile.json';
-import resume from '../../assets/resume/resume_haider_v2.pdf'
+import resume from '../../assets/resume/resume_haider_v3.pdf'
 
 export default function home() {
 
