@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.5fe03302.chunk.css",
-    "main.js": "/profile/static/js/main.b4c3805f.chunk.js",
-    "main.js.map": "/profile/static/js/main.b4c3805f.chunk.js.map",
+    "main.js": "/profile/static/js/main.ea33ccfd.chunk.js",
+    "main.js.map": "/profile/static/js/main.ea33ccfd.chunk.js.map",
     "runtime-main.js": "/profile/static/js/runtime-main.cb6bac71.js",
     "runtime-main.js.map": "/profile/static/js/runtime-main.cb6bac71.js.map",
     "static/js/2.7a9ef38a.chunk.js": "/profile/static/js/2.7a9ef38a.chunk.js",
@@ -11,12 +11,12 @@
     "static/css/main.5fe03302.chunk.css.map": "/profile/static/css/main.5fe03302.chunk.css.map",
     "static/js/2.7a9ef38a.chunk.js.LICENSE.txt": "/profile/static/js/2.7a9ef38a.chunk.js.LICENSE.txt",
     "static/media/home.css": "/profile/static/media/IMG_DP.7c007e57.jpg",
-    "static/media/resume_haider_v3.084e7bf7.pdf": "/profile/static/media/resume_haider_v3.084e7bf7.pdf"
+    "static/media/resume_haider_v4.08e2e2f5.pdf": "/profile/static/media/resume_haider_v4.08e2e2f5.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.cb6bac71.js",
     "static/js/2.7a9ef38a.chunk.js",
     "static/css/main.5fe03302.chunk.css",
-    "static/js/main.b4c3805f.chunk.js"
+    "static/js/main.ea33ccfd.chunk.js"
   ]
 }
