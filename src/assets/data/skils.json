@@ -4,17 +4,17 @@
         "technologies": [
             {
                 "name": "HTML",
-                "experience": "5 years",
+                "experience": "8 years",
                 "lastVersionUsed": "HTML5"
             },
             {
                 "name": "CSS",
-                "experience": "5 years",
-                "lastVersionUsed": "CSS3"
+                "experience": "8 years",
+                "lastVersionUsed": "SCSS, CSS3"
             },
             {
                 "name": "Javascript",
-                "experience": "5 years",
+                "experience": "8 years",
                 "lastVersionUsed": "ES6, ES7"
             },
             {
@@ -24,17 +24,17 @@
             },
             {
                 "name": "React",
-                "experience": "2 years",
+                "experience": "5 years",
                 "lastVersionUsed": "16, 17"
             },
             {
                 "name": "Redux",
-                "experience": "2 years",
+                "experience": "5 years",
                 "lastVersionUsed": "4.0"
             },
             {
                 "name": "Angular",
-                "experience": "3 years",
+                "experience": "5 years",
                 "lastVersionUsed": "9, 10"
             },
             {
@@ -61,12 +61,12 @@
         "technologies": [
             {
                 "name": "Java",
-                "experience": "5 years",
+                "experience": "7 years",
                 "lastVersionUsed": "12"
             },
             {
                 "name": "Node.js",
-                "experience": "3 years",
+                "experience": "8 years",
                 "lastVersionUsed": "12.3.1"
             },
             {
@@ -122,7 +122,7 @@
         "technologies": [
             {
                 "name": "Git / BitBucket",
-                "experience": "3 years"
+                "experience": "8 years"
             },
             {
                 "name": "Trello / JIRA",
@@ -180,7 +180,7 @@
         "technologies": [
             {
                 "name": "MacOS",
-                "experience": "4 years"
+                "experience": "8 years"
             },
             {
                 "name": "Windows",
