@@ -12,7 +12,7 @@ import './social-links.css'
 
 export default function SocialLinks() {
   return (
-    <ul>
+    <ul className='social-media-links'>
        <li className="item">
         <a href={profile.linkedinLink} target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} className='icon' /></a>
       </li>

@@ -1,10 +1,10 @@
-ul {
+.social-media-links {
     display: flex;
     list-style: none;
     gap: 1rem;
     padding: 0;
   }
-  .item a {
+  .social-media-links .item a {
     text-decoration: none;
     width: 2rem;
     height: 2rem;
@@ -16,7 +16,7 @@ ul {
     z-index: 1;
     overflow: hidden;
   }
-  .item a::before {
+  .social-media-links .item a::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -27,38 +27,37 @@ ul {
     transform-origin: bottom;
     transition: scale 0.5s ease;
   }
-  .item:hover a::before {
+  .social-media-links .item:hover a::before {
     scale: 1 1;
   }
   
-  .icon {
+  .social-media-links .icon {
     font-size: 1.5rem;
     color: var(--icon-color);
     transition: 0.5s ease;
     z-index: 2;
   }
 
-  .item a:hover .icon {
+  .social-media-links .item a:hover .icon {
     color: var(--icon-color);
     transform: rotateY(360deg);
   }
-  .item:nth-child(1) {
+  .social-media-links .item:nth-child(1) {
     --icon-color: hsl(195, 22%, 96%);
     --bg-color: #0077b5;
   }
-  .item:nth-child(2) {
+  .social-media-links .item:nth-child(2) {
     --icon-color: hsl(195, 22%, 96%);
     --bg-color: #fff;
   }
-  .item:nth-child(2):hover {
+  .social-media-links .item:nth-child(2):hover {
     --icon-color: hsl(0, 0%, 2%);
   }
-  .item:nth-child(3) {
+  .social-media-links .item:nth-child(3) {
     --icon-color: hsl(195, 22%, 96%);
     --bg-color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
   }
- 
-  .item:nth-child(4) {
+  .social-media-links .item:nth-child(4) {
     --icon-color: hsl(195, 22%, 96%);
     --bg-color: #000;
   }
