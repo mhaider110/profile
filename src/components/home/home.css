@@ -41,13 +41,6 @@
     background-position-x: 10px;
 }
 
-.home .social-icons a {
-    text-decoration: none;
-    padding: 0.5rem;
-    font-size: 1.5rem;
-    color: #fff;
-}
-
 .skill-section, .work-section {
     min-height: 100vh;
 }

@@ -1,12 +1,6 @@
 import React from 'react'
 import './home.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faGithub,
-    faInstagram,
-    faTwitter,
-    faLinkedin
-} from '@fortawesome/free-brands-svg-icons';
 import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
 import { Button } from '../../primitives/Button';
 import { Container } from '../../primitives/Container';
@@ -18,6 +12,7 @@ import listOfSkills from '../../assets/data/skils.json';
 import listOfWork from '../../assets/data/recent-work.json';
 import profile from '../../assets/data/profile.json';
 import resume from '../../assets/resume/resume_haider_v5.pdf'
+import SocialLinks from '../social-links/social-links';
 
 export default function home() {
 
@@ -32,12 +27,7 @@ export default function home() {
                 <Container className="profile-picture">
                 </Container>
                 <Container centerContent marginTop={'0.5rem'} className="social-icons-parent">
-                    <Container spaceEvenly width={'8rem'} className="social-icons">
-                        <a href={profile.linkedinLink} target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
-                        <a href={profile.githubLink} target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
-                        <a href={profile.instagramLink} target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
-                        <a href={profile.twitterLink} target={'_blank'} rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
-                    </Container>
+                    <SocialLinks></SocialLinks>
                 </Container>
                 <Container centerContent className="contact-me">
                     <a href="#contact"><Button>Contact me</Button></a>
